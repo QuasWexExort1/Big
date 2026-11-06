@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace GameStudioModel
-{
-    public interface IWeapon
+﻿    public interface IWeapon
     {
         string Name { get; }
         int BonusDamage { get; }
@@ -240,4 +235,3 @@ namespace GameStudioModel
             Console.ReadLine();
         }
     }
-}
